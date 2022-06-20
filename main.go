@@ -10,6 +10,7 @@ var users = map[string]*User{}
 type User struct {
 	Nickname string `json:"nickname"`
 	Email    string `json:"email"`
+	Name     string `json:"name"`
 }
 
 // 4
